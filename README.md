@@ -162,7 +162,7 @@ else:
 
 # FLOWCHART
 
-![Screenshot (21)](https://github.com/calamities17/PERTEMUAN10/assets/147371058/dc73cb16-166f-4651-bc44-4ca8615f8d0b)
+![grg003mp](https://github.com/calamities17/PERTEMUAN10/assets/147371058/e4617bbf-b063-45e6-8ddd-aad97468a387)
 
 
 
