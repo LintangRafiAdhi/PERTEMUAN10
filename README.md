@@ -153,18 +153,74 @@ else:
 
 
 # TABLE LIST
+<p>OUTPUT</p>
 
 ![Screenshot (19)](https://github.com/calamities17/PERTEMUAN10/assets/147371058/8a5989f6-8bc2-40ff-9e7c-c422f4fb145f)
 
 # KONTAK
+<p>OUTPUT</p>
 
 ![Screenshot (20)](https://github.com/calamities17/PERTEMUAN10/assets/147371058/8d2b6501-b62d-4a24-b40e-320216bcc5d4)
 
-# FLOWCHART
+# FLOWCHART TABLE LIST
 
 ![grg003mp](https://github.com/calamities17/PERTEMUAN10/assets/147371058/e4617bbf-b063-45e6-8ddd-aad97468a387)
 
 
 
+<P>PENJELASAN FLOWCHART TABLE LIST</P>
 
+1. **Inisialisasi:**
+   - Proses dimulai dengan menginisialisasi kamus kosong bernama `data_mahasiswa`.
+   - Opsi menu ditampilkan kepada pengguna.
+   - Pilihan pengguna dibaca dan disimpan dalam variabel `choice`.
+
+2. **Struktur Keputusan:**
+   - Flowchart masuk ke dalam struktur keputusan berdasarkan pilihan pengguna.
+   - Jika pilihan adalah "Tambah Data", flowchart akan masuk ke cabang yang sesuai.
+   - Jika pilihan adalah "Ubah Data", maka akan masuk ke cabang tersebut.
+   - Jika pilihan adalah "Hapus Data", maka akan masuk ke cabang tersebut.
+   - Jika pilihan adalah "Tampilkan Data", maka akan masuk ke cabang tersebut.
+   - Jika pilihan adalah "Cari Data", maka akan masuk ke cabang tersebut.
+   - Jika tidak ada opsi yang dipilih di atas, akan mencetak pesan kesalahan.
+
+3. **Cabang "Tambah Data":**
+   - Jika pengguna memilih untuk menambahkan data, flowchart akan melalui langkah-langkah berikut:
+     - Membaca input untuk nama (nama), NIM (nim), dan nilai (tugas, uts, uas).
+     - Menghitung nilai akhir berdasarkan bobot tertentu.
+     - Menambahkan data ke kamus `data_mahasiswa`.
+     - Mencetak pesan keberhasilan yang menunjukkan bahwa data mahasiswa telah ditambahkan.
+
+4. **Cabang "Ubah Data":**
+   - Jika pengguna memilih untuk mengubah data, flowchart akan melalui langkah-langkah berikut:
+     - Membaca input untuk nama (nama) dan nilai baru (tugas, uts, uas).
+     - Memeriksa apakah nama tersebut ada dalam kamus `data_mahasiswa`.
+       - Jika ada, menghitung ulang nilai akhir dan memperbarui data.
+       - Jika tidak ada, mencetak pesan kesalahan.
+
+5. **Cabang "Hapus Data":**
+   - Jika pengguna memilih untuk menghapus data, flowchart akan melalui langkah-langkah berikut:
+     - Membaca input untuk nama (nama).
+     - Memeriksa apakah nama tersebut ada dalam kamus `data_mahasiswa`.
+       - Jika ada, menghapus data tersebut.
+       - Jika tidak ada, mencetak pesan kesalahan.
+
+6. **Cabang "Tampilkan Data":**
+   - Jika pengguna memilih untuk menampilkan data, flowchart akan melalui langkah-langkah berikut:
+     - Membuat tabel cantik bernama `tabel`.
+     - Menambahkan nama bidang ke dalam tabel.
+     - Melakukan iterasi pada kamus `data_mahasiswa` dan menambahkan baris ke dalam tabel.
+     - Mencetak tabel yang berisi daftar data mahasiswa.
+
+7. **Cabang "Cari Data":**
+   - Jika pengguna memilih untuk mencari data, flowchart akan melalui langkah-langkah berikut:
+     - Membaca input untuk nama (nama).
+     - Memeriksa apakah nama tersebut ada dalam kamus `data_mahasiswa`.
+       - Jika ada, membuat tabel cantik bernama `tabel` dan menampilkan data.
+       - Jika tidak ada, mencetak pesan kesalahan.
+
+8. **Akhir:**
+   - Program berakhir setelah menyelesaikan operasi yang dipilih atau mencetak pesan kesalahan.
+
+Flowchart ini memberikan representasi visual dari logika dan proses pengambilan keputusan dalam program yang dijelaskan.
 
